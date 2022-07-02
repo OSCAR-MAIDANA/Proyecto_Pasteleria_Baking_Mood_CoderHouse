@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* index */
+.fondoindex {
+    background-color: #F2C12E;
+    margin: 1rem;
+}
+
+.menuindex {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* galeria */
+.menugaleria {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster';
+
+}
+
+.fondogaleria {
+    background-color: #e48e95;
+}
+
+.bordesredondeados {
+    border-radius: 25px;
+}
+
+
+/*  CONTACTO */
+.textocontacto {
+    color: black;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster';
+    line-height: 1.6;
+}
+
+.size {
+    font-size: 1.2rem;
+}
+
+.fondocontacto {
+    background-color: #f2b279;
+}
+
+.textocontacto {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster', cursive;
+    ;
+}
+
+
+/* nosotros */
+
+.fondonosotros {
+    background-color: #D9A282;
+}
+
+.tipografiamenunosotros {
+    font-family: 'Smooch', cursive;
+}
+
+.tipografiatextonosotros {
+    font-family: 'Calabacín', cursiva, 'Langosta', cursiva;
+    font-size: larger;
+}
+
+/* preguntas_frecuentes */
+
+.fondopreguntasfrecuentes {
+    background-color: #260101;
+}
+
+.textopreguntasfrecuentes {
+    color: white;
+}
+
+/* home */
+
+.parrallax{
+        height: 20rem;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover
+       }
+        
+#seccion1{
+    background-image: url(../ASSETS/cupcake\ con\ vela.jpg)
+}
+
+
+.textohome {
+    font-family: 'Abel', sans-serif;
+    familia tipográfica: 'Calabacín', cursiva, 'Langosta', cursiva;
+    color: white;
+    font-size: larger;
+    line: height 2px;
+
+}
+
+
+
+p {
+    color: #F2C12E;
+}
+
+p {
+    color: #F2AB27;
+}
+
+p {
+    color: #F2921D;
+}
+
+p {
+    color: #A63F03;
+}
+
+p {
+    color: #593C32;
+}
+
+
+/
