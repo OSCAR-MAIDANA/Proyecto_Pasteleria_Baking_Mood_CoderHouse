@@ -8,34 +8,36 @@
     <title>Contacto</title>
     <link rel="shortcut icon" href="../ASSETS/baking mood logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/estilos.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 
 <body class="fondocontacto">
-    <header class="textocontacto">
+    <header class="menucontacto">
         <div>
-            <a href="../index.html"> <img src="../ASSETS/baking mood logo.png" alt="logo de un cupcake"></a>
+            <a href="../index.html"> <img class="imglogo" src="../ASSETS/baking mood logo.png" alt="logo de un cupcake"></a>
         </div>
         <nav>
-            <ul>
-                    <li> <a href="/VIEWS/home.html"> Home </a></li>
-                    <li> <a href="/VIEWS/galeria.html" > Galeria  </a></li>
-                    <li> <a href="/VIEWS/nosotros.html"> Nosotros </a></li>
-                    <li> <a href="/VIEWS/preguntas_frecuentes.html"> Preguntas frecuentes </a></li>
-                    <li> <a href="/VIEWS/contacto.html"> Contacto </a></li>
+            <ul class="textocontacto">
+                <li> <a href="./home.html"> Home </a></li>
+                <li> <a href="./galeria.html"> Galeria </a></li>
+                <li> <a href="./nosotros.html"> Nosotros </a></li>
+                <li> <a href="./preguntas_frecuentes.html"> Preguntas frecuentes </a></li>
+                <li> <a href="./contacto.html"> Contacto </a></li>
             </ul>
         </nav>
     </header>
     <main class="textocontacto">
         <form action="">
+            <h1 class="titulodeformulario"> Datos de contacto</h1>
+            
             <fieldset>
-                <h1> Datos de contacto</h1>
+                
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
                 <br>
-                <br>
+                <br> 
                 <label for="apellido">Apellido</label>
                 <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required>
                 <br>
@@ -49,7 +51,7 @@
                 <label for="cliente">Tipo de cliente </label>
                 <br>
                 <select name="cliente" id="cliente">
-                    <option value="">Seleccioné el tipo de cliente</option>
+                    <option value="">Seleccione el tipo de cliente</option>
                     <option value="particular">Particular</option>
                     <option value="comercial">Comercial</option>
                 </select>
