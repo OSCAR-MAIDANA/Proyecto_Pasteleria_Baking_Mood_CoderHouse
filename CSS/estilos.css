@@ -1,215 +1,157 @@
 * {
-    margin: 0;
-    padding: 0%;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /* -------INDEX------------- */
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
-}
-nav{
-    width: 50%;
-    margin: 0 20px 0 0;
-}
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-a{
-    text-decoration: none;
-}
-.fondoindex {
-    background-color: #F2C12E;
-    margin: 1rem;
-}
+.textonav {
+  font-family: "Alegreya", serif; }
 
-.menuindex {
+nav {
+  width: 100%;
+  margin: 0 0 0 0; }
+
+.navbar-brand {
+  max-width: 100px; }
+
+h1 {
+  font-size: 25px; }
+
+a {
+  text-decoration: none; }
+
+.fondoindex {
+  background-color: #F2C12E;
+  margin: 0rem; }
+
+/* menuindex {
     margin: 1rem;
     padding: 1rem;
-    text-align: center;
-}
+    text-align: justify;
+} */
+iframe {
+  width: 100%;
+  height: 100%; }
 
 /* -------------HOME--------------- */
-
-.parrallax{
-    height: 20rem;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover
-   }
-    
-#seccion1{
-background-image: url(../ASSETS/cupcake\ con\ vela.jpg)
-}
 .textohome {
-font-family: 'Indie Flower', cursive;
-color: white;
-font-size: larger;
-line: height 2px;
+  font-family: "Mr Dafoe", cursive;
+  font-size: 20px; }
 
-}
+.figure {
+  max-width: 600px;
+  max-height: auto; }
 
 /* ----------GALERIA------------- */
+.textogaleria {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 20px; }
 
-.menugaleria {
-    font-family: font-family: 'Indie Flower', cursive;
-    font-family: 'Pacifico', cursive;
-}
-.fondogaleria {
-    background-color: #e48e95;
-}
-.gridgaleria{
-    display:grid;
+/* .gridgaleria {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px;
-    grid-template-areas: "texto texto texto texto"
-                         "img1  img2  img3  img4"
-                         "img5  img6  img7  img8";
-    justify-items: center;
-}
-.textogaleria{
-    grid-area:texto ;
-    text-align: center;
-    margin-top: 2px 0 -50 0;
+    grid-template-rows: 60px 100px 100px;
+    grid-template-areas: "texto texto"
+        "img1  img2 img3  img4;
+ img5 img6 img7 img8";
 
 }
-.bordesredondeados {
-    border-radius: 25px;
-}
-.imagenes_galeria1{
+
+.imagenesgaleria1 {
     grid-area: img1;
 }
-.imagenes_galeria2{
+
+.imagenes_galeria2 {
     grid-area: img2;
 }
-.imagenes_galeria3{
+
+.imagenes_galeria3 {
     grid-area: img3;
 }
-.imagenes_galeria4{
+
+.imagenes_galeria4 {
     grid-area: img4;
 }
-.imagenes_galeria5{
+
+.imagenes_galeria5 {
     grid-area: img5;
 }
-.imagenes_galeria6{
+
+.imagenes_galeria6 {
     grid-area: img6;
 }
-.imagenes_galeria7{
+
+.imagenes_galeria7 {
     grid-area: img7;
 }
-.imagenes_galeria8{
+
+.imagenes_galeria8 {
     grid-area: img8;
 }
-.gridgaleria img{
-    object-fit: cover;
-     width: 100%;
-     height:100%;
-}
-.iframe{
-    width:100%;
-    height:100%;
-}
-
-
+/*  */
 /* ----------NOSOTROS---------- */
-
 .fondonosotros {
-    background-color: #D9A282;
-}
+  background-color: #D9A282; }
 
-.tipografiamenunosotros {
-    font-family: font-family: 'Indie Flower', cursive;
-    font-family: 'Pacifico', cursive;
-}
+.imglogo {
+  padding: 10px;
+  width: 200px;
+  height: 150px; }
 
-.tipografiatextonosotros {
-    font-family: 'Calabacín', cursiva, 'Langosta', cursiva;
-    font-size: larger;
-}
-.imglogo{
-    padding: 10px;
-    width: 200px;
-    height:150px;
-}
-.gridnosotros{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 600px;
-    grid-template-areas: "texto texto texto "
-                        "img1    img3  img2";
-    justify-items: center;
-}
-.tipografiatextonosotros{
-    grid-area: texto;
-}
-.imagenesnostros1{
-    grid-area: img1;
-}
-.imagenesnostros2{
-    grid-area: img2;
-}
-.imagenesnostros3{
-    grid-area: img3;
-}
-.gridnosotros img{
-    height: 25%;   
-}
+.gridnosotros {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 600px;
+  grid-template-areas: "texto texto texto " "img1    img3  img2";
+  justify-items: center; }
+
+.textonosotros {
+  grid-area: texto; }
+
+.textonosotros {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 15px; }
+
+.imagenesnostros1 {
+  grid-area: img1; }
+
+.imagenesnostros2 {
+  grid-area: img2; }
+
+.imagenesnostros3 {
+  grid-area: img3; }
+
+.gridnosotros img {
+  height: 25%; }
 
 /* -------------PREGUNTAS FRECUENTES------------ */
-
-.fondopreguntasfrecuentes {
-    background-color: #260101;
-}
-
-.menupreguntasfrecuentes{
-    font-family: font-family: 'Indie Flower', cursive;
-    font-family: 'Pacifico', cursive;;
-}
 .textopreguntasfrecuentes {
-    color: white;
-}
-
+  font-family: "Mr Dafoe", cursive; }
 
 /* ---------CONTACTO------------- */
-.titulodeformulario{
-    font-size: medium;
-}
 .textocontacto {
-    color: black;
-    font-family:Arial, Helvetica, sans-serif
-    line-height: 1.6;
-}
-.menucontacto{
-    font-family:font-family: 'Indie Flower', cursive;
-    font-family: 'Pacifico', cursive;
-}
+  color: black;
+  font: family "Mr Dafoe", cursive;
+  /*  line-height: 1.6;/*  */ }
+
 .size {
-    font-size: 1.2rem;
-}
+  font-size: 1.2rem; }
 
 .fondocontacto {
-    background-color: #f2b279;
-}
+  background-color: #f2b279; }
 
-/* ----MEDIA QUERY--- */
-/* ---- MOBILE------ */
-@media only screen and (max-width:480px) {
-    .gridgaleria{
-        display: grid;
-        grid-template-columns:100;
-        grid-template-rows: 600px;
-        grid-template-areas: 
-                            "texto texto"
-                            "";
-        grid-column: 100%;
-    }
-    }
+.btn-primary {
+  color: white;
+  background-color: black; }
 
-}
+/* ----MEDIA   QUERY MOBILE --- */
+@media (min-width: 320px) and (max-width: 576px) {
+  .navbar-brand {
+    max-width: 70px; } }
+
+/* -----MEDIA QUERY TABLET */
+@media (min-width: 577px) and (max-width: 991px) {
+  /*  .gridgaleria {
+        flex-direction: row;
+    }
+*/ }
