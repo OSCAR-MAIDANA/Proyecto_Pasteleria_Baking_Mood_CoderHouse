@@ -39,7 +39,7 @@ iframe {
   font-size: 20px; }
 
 .figure {
-  max-width: 600px;
+  max-width: 800px;
   max-height: auto; }
 
 /* ----------GALERIA------------- */
@@ -95,35 +95,49 @@ iframe {
 
 .imglogo {
   padding: 10px;
+  margin: 10px;
   width: 200px;
   height: 150px; }
 
-.gridnosotros {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 600px;
-  grid-template-areas: "texto texto texto " "img1    img3  img2";
-  justify-items: center; }
-
-.textonosotros {
-  grid-area: texto; }
-
 .textonosotros {
   font-family: "Mr Dafoe", cursive;
-  font-size: 15px; }
+  font-size: 20px; }
+
+/*  .gridnosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 600px;
+    grid-template-areas: "texto texto texto "
+        "img1    img3  img2";
+    justify-items: center;
+}
+
+.textonosotros {
+    grid-area: texto;
+
+}
+
+.textonosotros {
+    font-family: $texto2;
+    font-size: 15px;
+}
 
 .imagenesnostros1 {
-  grid-area: img1; }
+    grid-area: img1;
+}
 
 .imagenesnostros2 {
-  grid-area: img2; }
+    grid-area: img2;
+}
 
 .imagenesnostros3 {
-  grid-area: img3; }
+    grid-area: img3;
+}
 
 .gridnosotros img {
-  height: 25%; }
-
+    height: 25%;
+}
+ */
 /* -------------PREGUNTAS FRECUENTES------------ */
 .textopreguntasfrecuentes {
   font-family: "Mr Dafoe", cursive; }
