@@ -1,0 +1,15 @@
+.textogaleria {
+    font-size: 20px;
+
+    &_texto {
+        font-family: $texto2;
+    }
+}
+
+.textohome {
+    text-align: center;
+
+    &.texto {
+        font-family: $texto2;
+    }
+}

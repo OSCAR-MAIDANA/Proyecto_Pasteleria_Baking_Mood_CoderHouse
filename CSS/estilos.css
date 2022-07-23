@@ -1,9 +1,70 @@
+/* UTILIDADES=VARIABLES / MIXIN / FUNCIONES */
+/*------- VARIABLES CARROUSEL ------*/
+/* BASE= RESET / TIPOGRAFIAS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-/* -------INDEX------------- */
+/* VIEWS=PAGES */
+.textocontacto {
+  color: black;
+  font: family "Mr Dafoe", cursive;
+  /*  line-height: 1.6;/*  */ }
+
+.size {
+  font-size: 1.2rem; }
+
+.fondocontacto {
+  background-color: #f2b279; }
+
+.btn-primary {
+  color: white;
+  background-color: black;
+  margin-top: 15px;
+  border-color: aqua; }
+
+.form-select {
+  margin-bottom: 11px; }
+
+.form-label {
+  margin-top: 11px; }
+
+p {
+  margin-top: 15px; }
+
+.textogaleria {
+  font-family: "Mr Dafoe", cursive; }
+
+.card {
+  margin-bottom: 15px; }
+
+.textogaleria {
+  font-size: 20px; }
+  .textogaleria_texto {
+    font-family: "Mr Dafoe", cursive; }
+
+.textohome {
+  text-align: center; }
+  .textohome.texto {
+    font-family: "Mr Dafoe", cursive; }
+
+.fondonosotros {
+  background-color: #D9A282; }
+
+.imglogo {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 150px; }
+
+.textonosotros {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 20px; }
+
+.textopreguntasfrecuentes {
+  font-family: "Alegreya", serif; }
+
 .textonav {
   font-family: "Alegreya", serif; }
 
@@ -24,147 +85,31 @@ a {
   background-color: #F2C12E;
   margin: 0rem; }
 
-/* menuindex {
-    margin: 1rem;
-    padding: 1rem;
-    text-align: justify;
-} */
 iframe {
   width: 100%;
   height: 100%; }
-
-/* -------------HOME--------------- */
-.textohome {
-  font-family: "Mr Dafoe", cursive;
-  font-size: 20px; }
-
-.figure {
-  max-width: 800px;
-  max-height: auto; }
-
-/* ----------GALERIA------------- */
-.textogaleria {
-  font-family: "Mr Dafoe", cursive;
-  font-size: 20px; }
-
-/* .gridgaleria {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 60px 100px 100px;
-    grid-template-areas: "texto texto"
-        "img1  img2 img3  img4;
- img5 img6 img7 img8";
-
-}
-
-.imagenesgaleria1 {
-    grid-area: img1;
-}
-
-.imagenes_galeria2 {
-    grid-area: img2;
-}
-
-.imagenes_galeria3 {
-    grid-area: img3;
-}
-
-.imagenes_galeria4 {
-    grid-area: img4;
-}
-
-.imagenes_galeria5 {
-    grid-area: img5;
-}
-
-.imagenes_galeria6 {
-    grid-area: img6;
-}
-
-.imagenes_galeria7 {
-    grid-area: img7;
-}
-
-.imagenes_galeria8 {
-    grid-area: img8;
-}
-/*  */
-/* ----------NOSOTROS---------- */
-.fondonosotros {
-  background-color: #D9A282; }
-
-.imglogo {
-  padding: 10px;
-  margin: 10px;
-  width: 200px;
-  height: 150px; }
-
-.textonosotros {
-  font-family: "Mr Dafoe", cursive;
-  font-size: 20px; }
-
-/*  .gridnosotros {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 600px;
-    grid-template-areas: "texto texto texto "
-        "img1    img3  img2";
-    justify-items: center;
-}
-
-.textonosotros {
-    grid-area: texto;
-
-}
-
-.textonosotros {
-    font-family: $texto2;
-    font-size: 15px;
-}
-
-.imagenesnostros1 {
-    grid-area: img1;
-}
-
-.imagenesnostros2 {
-    grid-area: img2;
-}
-
-.imagenesnostros3 {
-    grid-area: img3;
-}
-
-.gridnosotros img {
-    height: 25%;
-}
- */
-/* -------------PREGUNTAS FRECUENTES------------ */
-.textopreguntasfrecuentes {
-  font-family: "Mr Dafoe", cursive; }
-
-/* ---------CONTACTO------------- */
-.textocontacto {
-  color: black;
-  font: family "Mr Dafoe", cursive;
-  /*  line-height: 1.6;/*  */ }
-
-.size {
-  font-size: 1.2rem; }
-
-.fondocontacto {
-  background-color: #f2b279; }
-
-.btn-primary {
-  color: white;
-  background-color: black; }
 
 /* ----MEDIA   QUERY MOBILE --- */
 @media (min-width: 320px) and (max-width: 576px) {
   .navbar-brand {
     max-width: 70px; } }
 
-/* -----MEDIA QUERY TABLET */
-@media (min-width: 577px) and (max-width: 991px) {
+/* -----MEDIA QUERY TABLET XL---- */
+@media only screen and (min-width: 300px) and (max-width: 690px) {
+  /*  .gridgaleria {
+        flex-direction: row;
+    }
+*/ }
+
+/* -----MEDIA QUERY TABLET XL---- */
+@media only screen and (min-width: 691px) and (max-width: 899px) {
+  /*  .gridgaleria {
+        flex-direction: row;
+    }
+*/ }
+
+/* -----MEDIA QUERY TABLET -----*/
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
   /*  .gridgaleria {
         flex-direction: row;
     }

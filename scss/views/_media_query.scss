@@ -1,0 +1,33 @@
+
+/* ----MEDIA   QUERY MOBILE --- */
+@media(min-width:320px) and (max-width:576px) {
+
+    .navbar-brand {
+        max-width: 70px;
+    }
+}
+
+/* -----MEDIA QUERY TABLET XL---- */
+@media only screen and (min-width:300px) and (max-width: 690px) {
+    /*  .gridgaleria {
+        flex-direction: row;
+    }
+*/
+} 
+
+/* -----MEDIA QUERY TABLET XL---- */
+@media only screen and (min-width:691px) and (max-width: 899px) {
+    /*  .gridgaleria {
+        flex-direction: row;
+    }
+*/
+}
+
+/* -----MEDIA QUERY TABLET -----*/
+@media only screen and (min-width:900px) and (max-width: 1024px) {
+    /*  .gridgaleria {
+        flex-direction: row;
+    }
+*/
+}
+
