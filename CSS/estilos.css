@@ -34,10 +34,8 @@ p {
   margin-top: 15px; }
 
 .textogaleria {
-  font-family: "Mr Dafoe", cursive; }
-
-.card {
-  margin-bottom: 15px; }
+  font-family: "Mr Dafoe", cursive;
+  text-align: center; }
 
 .textogaleria {
   font-size: 20px; }
@@ -49,18 +47,38 @@ p {
   .textohome.texto {
     font-family: "Mr Dafoe", cursive; }
 
+.carousel-inner img {
+  width: 100%;
+  max-height: 600px; }
+
+.carousel-inner {
+  height: 650px; }
+
+h3 {
+  font-size: x-large;
+  margin-top: 1px; }
+
 .fondonosotros {
   background-color: #D9A282; }
 
-.imglogo {
-  padding: 10px;
-  margin: 10px;
-  width: 200px;
-  height: 150px; }
-
+/*.imglogo {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+}
+/*  */
 .textonosotros {
   font-family: "Mr Dafoe", cursive;
   font-size: 20px; }
+
+.textonosotrosp {
+  font-size: larger; }
+
+.img_nos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
 
 .textopreguntasfrecuentes {
   font-family: "Alegreya", serif; }
