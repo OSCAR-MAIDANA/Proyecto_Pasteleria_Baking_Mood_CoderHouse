@@ -1,3 +1,7 @@
 .textopreguntasfrecuentes {
     font-family: $texto1;
 }
+.accordion-button:not(.collapsed){
+    color: wheat;
+    background-color: black;
+}

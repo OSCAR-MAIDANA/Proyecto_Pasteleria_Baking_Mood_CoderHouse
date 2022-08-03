@@ -2,13 +2,6 @@
     background-color: #D9A282;
 }
 
-/*.imglogo {
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    height: 150px;
-}
-/*  */
 .textonosotros {
     font-family: $texto2;
     font-size: 20px;
@@ -16,8 +9,11 @@
 .textonosotrosp{
     font-size: larger;
 }
-.img_nos{
-    display: flex;
-    flex-direction: row;
+.img_nosotros{
+    display:flex;
+    flex-direction:row;
     justify-content: space-evenly;
+}
+h1{
+   margin: 10px;
 }

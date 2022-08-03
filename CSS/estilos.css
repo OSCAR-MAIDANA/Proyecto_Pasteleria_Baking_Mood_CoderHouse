@@ -1,16 +1,78 @@
 /* UTILIDADES=VARIABLES / MIXIN / FUNCIONES */
 /*------- VARIABLES CARROUSEL ------*/
+/* --VARIABLES ACCORDION --*/
+/* -- SPACING --*/
 /* BASE= RESET / TIPOGRAFIAS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-/* VIEWS=PAGES */
+/* -- EXTEND-- */
+.btn, .btn-outline {
+  border-radius: 12px;
+  border: 1.2px solid black; }
+
+.card-texto1 {
+  color: color red; }
+
+.card-texto2 {
+  color: color green; }
+
+.card-texto3 {
+  color: color yellow; }
+
+/* --VIEWS=PAGES-- */
+.fondonosotros {
+  background-color: #D9A282; }
+
+.textonosotros {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 20px; }
+
+.textonosotrosp {
+  font-size: larger; }
+
+.img_nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+h1 {
+  margin: 10px; }
+
+.textogaleria {
+  font-family: "Mr Dafoe", cursive;
+  text-align: center; }
+
+.card-body-text {
+  text-decoration: wavy; }
+
+.textogaleria {
+  font-size: 20px; }
+  .textogaleria_texto {
+    font-family: "Mr Dafoe", cursive; }
+
+.textohome {
+  text-align: center; }
+  .textohome.texto {
+    font-family: "Mr Dafoe", cursive; }
+
+.textonosotros {
+  font-size: 20px; }
+  .textonosotros.texto {
+    font-family: "Mr Dafoe", cursive; }
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 600px; }
+
+.carousel-inner {
+  height: 650px; }
+
 .textocontacto {
   color: black;
-  font: family "Mr Dafoe", cursive;
-  /*  line-height: 1.6;/*  */ }
+  font: family "Mr Dafoe", cursive; }
 
 .size {
   font-size: 1.2rem; }
@@ -33,55 +95,12 @@
 p {
   margin-top: 15px; }
 
-.textogaleria {
-  font-family: "Mr Dafoe", cursive;
-  text-align: center; }
-
-.textogaleria {
-  font-size: 20px; }
-  .textogaleria_texto {
-    font-family: "Mr Dafoe", cursive; }
-
-.textohome {
-  text-align: center; }
-  .textohome.texto {
-    font-family: "Mr Dafoe", cursive; }
-
-.carousel-inner img {
-  width: 100%;
-  max-height: 600px; }
-
-.carousel-inner {
-  height: 650px; }
-
-h3 {
-  font-size: x-large;
-  margin-top: 1px; }
-
-.fondonosotros {
-  background-color: #D9A282; }
-
-/*.imglogo {
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    height: 150px;
-}
-/*  */
-.textonosotros {
-  font-family: "Mr Dafoe", cursive;
-  font-size: 20px; }
-
-.textonosotrosp {
-  font-size: larger; }
-
-.img_nos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; }
-
 .textopreguntasfrecuentes {
   font-family: "Alegreya", serif; }
+
+.accordion-button:not(.collapsed) {
+  color: wheat;
+  background-color: black; }
 
 .textonav {
   font-family: "Alegreya", serif; }
@@ -104,31 +123,53 @@ a {
   margin: 0rem; }
 
 iframe {
-  width: 100%;
-  height: 100%; }
+  width: 83%;
+  height: 50%; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 1.2rem;
+  margin-top: 5px;
+  background-color: #999c9c; }
+
+.nav-link1 {
+  color: black; }
+
+.footer__ul {
+  list-style: none;
+  padding-left: 2px; }
+
+h3 {
+  font-size: medium;
+  color: azure; }
 
 /* ----MEDIA   QUERY MOBILE --- */
-@media (min-width: 320px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 575px) {
   .navbar-brand {
-    max-width: 70px; } }
+    max-width: 100%; }
+  .img_nosotros {
+    flex-direction: column;
+    justify-content: center; }
+  .iframe {
+    max-width: 100%; }
+  footer {
+    flex-direction: column; } }
 
-/* -----MEDIA QUERY TABLET XL---- */
-@media only screen and (min-width: 300px) and (max-width: 690px) {
-  /*  .gridgaleria {
-        flex-direction: row;
-    }
-*/ }
+/* -----MEDIA QUERY TABLET ---- */
+@media (min-width: 576px) and (max-width: 767px) {
+  .img_nosotros {
+    flex-direction: column; }
+  .iframe {
+    max-width: 100%; } }
 
-/* -----MEDIA QUERY TABLET XL---- */
-@media only screen and (min-width: 691px) and (max-width: 899px) {
-  /*  .gridgaleria {
-        flex-direction: row;
-    }
-*/ }
-
-/* -----MEDIA QUERY TABLET -----*/
-@media only screen and (min-width: 900px) and (max-width: 1024px) {
-  /*  .gridgaleria {
-        flex-direction: row;
-    }
-*/ }
+@media (min-width: 768px) and (max-width: 991px) {
+  .textonosotros {
+    flex-direction: column; }
+  .img_nosotros {
+    flex-direction: column;
+    justify-items: space-evently; }
+  .iframe {
+    max-width: 100%; } }

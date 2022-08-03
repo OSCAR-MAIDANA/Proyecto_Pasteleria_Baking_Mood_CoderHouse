@@ -1,0 +1,16 @@
+@mixin flex1 ($direction , $justify , $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+
+}
+
+/* -- EXTEND-- */
+.btn{
+    border-radius: 12px;
+    border: 1.2px solid black;
+}
+.btn-outline{
+    @extend .btn
+}

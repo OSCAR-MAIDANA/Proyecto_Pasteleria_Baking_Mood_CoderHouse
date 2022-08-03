@@ -13,15 +13,22 @@
         font-family: $texto2;
     }
 }
+
+.textonosotros {
+    font-size: 20px;
+
+    &.texto {
+        font-family: $texto2;
+    }
+}
+
+
 .carousel-inner img {
     width: 100%;
     max-height: 600px;
 }
 
-.carousel-inner{
- height: 650px;
+.carousel-inner {
+    height: 650px;
 }
-h3{
-    font-size: x-large;
-    margin-top: 1px;
-}
+

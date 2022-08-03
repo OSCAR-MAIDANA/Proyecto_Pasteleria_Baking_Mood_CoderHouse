@@ -1,5 +1,10 @@
 $texto1:'Alegreya', serif;
 $texto2:'Mr Dafoe', cursive;
+$primary: color black;
+$text1:color red;
+$text2:color green;
+$text3:color yellow;
+
 
 /*------- VARIABLES CARROUSEL ------*/
 $carousel-control-width:             1%;
@@ -21,6 +26,19 @@ $carousel-transition-duration:       .2s;
 $carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
 
 $carousel-dark-control-icon-filter:  invert(1) grayscale(100);
+/* --VARIABLES ACCORDION --*/
+$accordion-button-active-color:           shade-color($primary,10%);
+
+/* -- SPACING --*/
+$spacing-large:6rem;
+$spacing-medium:2.4rem;
+$spacing-small: 1.2rem;
+
+
+
+
+
+
 
 
 

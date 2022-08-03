@@ -12,6 +12,7 @@
     <!-- CSS bootstratp -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS propio -->
     <link rel="stylesheet" href="../CSS/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,30 +33,27 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand">
-                    <img src="/ASSETS/baking mood logo.png " alt=logo" width="120" height="70">
+                    <img src="../ASSETS/baking mood logo.png  " alt=logo" width="120" height="70">
                 </a>
                 <div class=" collapse navbar-collapse " id="navbarTogglerDemo03">
                     <ul class="navbar-nav me-auto mb-0 mb-lg-1">
                         <li class="nav-item button ">
-                            <a class="nav-link btn btn-outline-home" aria-current="page" href="./home.html">Home</a>
+                            <a class="nav-link btn " aria-current="page" href="./home.html">Home</a>
                         </li>
                         <li class="nav-item button">
-                            <a class="nav-link btn btn-outline-Galeria" href="./galeria.html">Galeria</a>
+                            <a class="nav-link btn " href="./galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item button">
-                            <a class="nav-link btn btn-outline-Nosotros" href="./nosotros.html">Nosotros</a>
+                            <a class="nav-link btn " href="./nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item button">
-                            <a class="nav-link btn btn-outline-Preguntas frecuentes"
-                                href="./preguntas_frecuentes.html">Preguntas frecuentes</a>
+                            <a class="nav-link btn" href="./preguntas_frecuentes.html">Preguntas frecuentes</a>
                         </li>
                         <li class="nav-item button">
-                            <a class="nav-link btn btn-outline-Contacto" href="./contacto.html">Contacto</a>
+                            <a class="nav-link btn" href="./contacto.html">Contacto</a>
                         </li>
                     </ul>
-
                 </div>
-                </button>
             </div>
         </nav>
     </header>
@@ -88,17 +86,60 @@
             </button>
         </div>
         <div class=textogaleria>
-            <h3 class="texto "> Contamos con una gran variedad de tortas, cupcakes y macarrons. Aquí encontrará la mas
+            <h2 class="texto "> Contamos con una gran variedad de tortas, cupcakes y macarrons. Aquí encontrará la mas
                 fina pasteleria con una frescura insuperable.
-            </h3>
+            </h2>
         </div>
     </main>
 
     <footer>
-        <iframe class="iframe"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.99144060814!2d2.2922926150568834!3d48.858373608662895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe22e603a5f%3A0xaeb906086765a2e1!2sAux%20D%C3%A9lices%20du%20Pont%20d&#39;I%C3%A9na!5e0!3m2!1ses-419!2sar!4v1654828588742!5m2!1ses-419!2sar"
-            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+        <div>
+            <h3> Navegación</h3>
+            <ul class="footer__ul">
+                <li>
+                    <a class="nav-link " href="./home.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href=" ./galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./preguntas_frecuentes.html">Preguntas frecuentes</a>
+                </li>
+                <li>
+                    <a class="nav-link " href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3> Redes Sociales</h3>
+            <i class="bi bi-instagram" href="https://www.instagram.com/baking_mood_by_lr/?igshid=YmMyMTA2M2Y%3D" style="font-size: 2.2rem; color: rgb(2, 0, 1)">
+            </i>
+            <i class="bi bi-facebook" style="font-size: 2.2rem; color: rgb(2, 0, 1)"></i>
+        </div>
+        <div>
+            <h3>Medios de pago</h3>
+            <img src="../ASSETS/icons8-visa-48.png" style="font-size: 2rem" alt=" icono de
+                    tarjeta visa">
+            <img src="../ASSETS/icons8-mastercard-48.png" style="font-size: 2rem" alt=" icono
+                    de tarjeta mastercard">
+            <img src="../ASSETS/icons8-american-express-48.png" style="font-size: 2rem" alt="
+                    icono de tarjeta american express">
+            <img src="../ASSETS/icons8-bitcoin-50.png" class="w-8" style="font-size: 1.5rem" alt=" icono de
+                    bitcoin">
+            <img src="../ASSETS/icons8-ethereum-48.png" style="font-size: 2rem" alt=" icono
+                    de ethereum">
+        </div>
+        <div>
+            <h3>Donde estamos</h3>
+            <p> <i class="bi bi-shop" style="font-size: 1.2rem; color: rgb(2, 0, 1);padding-right: 4px;"></i>Quai Branly, 75007 Paris, Francia </p>
+            <iframe class="iframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.99144060814!2d2.2922926150568834!3d48.858373608662895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe22e603a5f%3A0xaeb906086765a2e1!2sAux%20D%C3%A9lices%20du%20Pont%20d&#39;I%C3%A9na!5e0!3m2!1ses-419!2sar!4v1654828588742!5m2!1ses-419!2sar"
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

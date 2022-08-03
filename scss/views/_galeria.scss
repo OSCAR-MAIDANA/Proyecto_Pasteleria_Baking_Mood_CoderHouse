@@ -2,3 +2,8 @@
     font-family: $texto2;
     text-align: center;
 }
+.card-body{
+    &-text{
+        text-decoration: wavy;
+    }
+}

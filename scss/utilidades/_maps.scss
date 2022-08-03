@@ -1,0 +1,12 @@
+$colors: (
+    texto1:$text1,
+    texto2:$text2,
+    texto3:$text3,
+);
+
+@each $name,
+$value in $colors {
+    .card-#{$name} {
+        color: $value;
+    }
+}
