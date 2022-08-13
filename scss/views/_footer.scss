@@ -2,7 +2,7 @@ footer {
     @include flex1 (row , space-around , stretch);
     padding: $spacing-small;
     margin-top: 5px;
-    background-color: rgb(153, 156, 156);
+    background-color: rgb(192, 224, 224);
 }
 
 .nav-link1{
@@ -11,9 +11,10 @@ footer {
 .footer__ul{
    list-style: none;
    padding-left: 2px;
+   color:black;
 }
 h3{
-    font-size: medium;
-    color: azure;
-    margin-bottom: 0px;
+    font-size: large;
+    color:black;
+    margin-bottom: 2px;
 }

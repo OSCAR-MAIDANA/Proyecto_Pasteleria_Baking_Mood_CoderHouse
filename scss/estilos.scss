@@ -4,13 +4,12 @@
 /* BASE= RESET / TIPOGRAFIAS */
 @import "./base/reset";
 @import "./utilidades/mixins";
-@import "./utilidades/maps";
+
 
 
 /* --VIEWS=PAGES-- */
 @import "./views/nosotros";
 @import "./views/galeria";
-@import "./views/home";
 @import "./views/contacto";
 @import "./views/preguntas_frecuentes";
 @import "./views/index";

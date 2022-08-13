@@ -12,15 +12,6 @@
 .btn, .btn-outline {
   border-radius: 12px; }
 
-.card-texto1 {
-  color: color red; }
-
-.card-texto2 {
-  color: color green; }
-
-.card-texto3 {
-  color: color yellow; }
-
 /* --VIEWS=PAGES-- */
 .fondonosotros {
   background-color: #D9A282; }
@@ -47,28 +38,6 @@ h1 {
 .card-body-text {
   text-decoration: wavy; }
 
-.textogaleria {
-  font-size: 20px; }
-  .textogaleria_texto {
-    font-family: "Mr Dafoe", cursive; }
-
-.textohome {
-  text-align: center; }
-  .textohome.texto {
-    font-family: "Mr Dafoe", cursive; }
-
-.textonosotros {
-  font-size: 20px; }
-  .textonosotros.texto {
-    font-family: "Mr Dafoe", cursive; }
-
-.carousel-inner img {
-  width: 100%;
-  max-height: 600px; }
-
-.carousel-inner {
-  height: 650px; }
-
 .textocontacto {
   color: black;
   font: family "Mr Dafoe", cursive; }
@@ -92,7 +61,8 @@ h1 {
   margin-top: 11px; }
 
 p {
-  margin-top: 15px; }
+  margin-top: 15px;
+  font-size: 1.2rem; }
 
 .textopreguntasfrecuentes {
   font-family: "Alegreya", serif; }
@@ -125,6 +95,28 @@ iframe {
   width: 95%;
   height: 50%; }
 
+.textogaleria {
+  font-size: 20px; }
+  .textogaleria_texto {
+    font-family: "Mr Dafoe", cursive; }
+
+.textohome {
+  text-align: center; }
+  .textohome.texto {
+    font-family: "Mr Dafoe", cursive; }
+
+.textonosotros {
+  font-size: 20px; }
+  .textonosotros.texto {
+    font-family: "Mr Dafoe", cursive; }
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 600px; }
+
+.carousel-inner {
+  height: 650px; }
+
 footer {
   display: flex;
   flex-direction: row;
@@ -132,19 +124,20 @@ footer {
   align-items: stretch;
   padding: 1.2rem;
   margin-top: 5px;
-  background-color: #999c9c; }
+  background-color: #c0e0e0; }
 
 .nav-link1 {
   color: black; }
 
 .footer__ul {
   list-style: none;
-  padding-left: 2px; }
+  padding-left: 2px;
+  color: black; }
 
 h3 {
-  font-size: medium;
-  color: azure;
-  margin-bottom: 0px; }
+  font-size: large;
+  color: black;
+  margin-bottom: 2px; }
 
 /* ----MEDIA   QUERY MOBILE --- */
 @media (min-width: 320px) and (max-width: 575px) {
