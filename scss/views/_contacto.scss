@@ -2,11 +2,9 @@
     color: black;
     font: family $texto2;
 }
-
-.size {
-    font-size: 1.2rem;
+.textocontacto2{
+    font-family: $texto1;
 }
-
 .fondocontacto {
     background-color: #f2b279;
 }
@@ -30,4 +28,5 @@
 p {
     margin-top: 15px;
     font-size: 1.2rem;
+    font-family: $texto1;
 }

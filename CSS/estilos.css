@@ -14,7 +14,7 @@
 
 /* --VIEWS=PAGES-- */
 .fondonosotros {
-  background-color: #D9A282; }
+  background-color: #f2b279; }
 
 .textonosotros {
   font-family: "Mr Dafoe", cursive;
@@ -33,17 +33,21 @@ h1 {
 
 .textogaleria {
   font-family: "Mr Dafoe", cursive;
+  text-align: center;
+  font-size: 25px; }
+
+.h1galeria {
   text-align: center; }
 
-.card-body-text {
-  text-decoration: wavy; }
+.textogaleria2 {
+  font-family: "Alegreya", serif; }
 
 .textocontacto {
   color: black;
   font: family "Mr Dafoe", cursive; }
 
-.size {
-  font-size: 1.2rem; }
+.textocontacto2 {
+  font-family: "Alegreya", serif; }
 
 .fondocontacto {
   background-color: #f2b279; }
@@ -62,7 +66,8 @@ h1 {
 
 p {
   margin-top: 15px;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  font-family: "Alegreya", serif; }
 
 .textopreguntasfrecuentes {
   font-family: "Alegreya", serif; }
@@ -82,14 +87,13 @@ nav {
   max-width: 100px; }
 
 h1 {
-  font-size: 25px; }
+  font-size: 30px;
+  font-family: "Mr Dafoe", cursive;
+  text-align: left;
+  margin: 0px 0px 1px 15px; }
 
 a {
   text-decoration: none; }
-
-.fondoindex {
-  background-color: #F2C12E;
-  margin: 0rem; }
 
 iframe {
   width: 95%;
@@ -103,7 +107,8 @@ iframe {
 .textohome {
   text-align: center; }
   .textohome.texto {
-    font-family: "Mr Dafoe", cursive; }
+    font-family: "Alegreya", serif;
+    font-size: 15px; }
 
 .textonosotros {
   font-size: 20px; }
@@ -116,6 +121,17 @@ iframe {
 
 .carousel-inner {
   height: 650px; }
+
+.h1home {
+  text-align: center; }
+
+.h2home {
+  font-size: 25px; }
+
+.h3home {
+  font-family: "Alegreya", serif;
+  font-size: 21px;
+  font-weight: bold; }
 
 footer {
   display: flex;
@@ -132,7 +148,9 @@ footer {
 .footer__ul {
   list-style: none;
   padding-left: 2px;
-  color: black; }
+  color: black;
+  font-family: "Alegreya", serif;
+  font-size: 18px; }
 
 h3 {
   font-size: large;
@@ -149,7 +167,9 @@ h3 {
   .iframe {
     max-width: 100%; }
   footer {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .carousel-inner {
+    height: 300px; } }
 
 /* -----MEDIA QUERY TABLET ---- */
 @media (min-width: 576px) and (max-width: 767px) {

@@ -1,9 +1,11 @@
 .textogaleria {
     font-family: $texto2;
     text-align: center;
+    font-size: 25px;
 }
-.card-body{
-    &-text{
-        text-decoration: wavy;
-    }
+.h1galeria{
+    text-align: center;
+}
+.textogaleria2{
+    font-family: $texto1;
 }
